@@ -1,0 +1,99 @@
+# USERS
+-
+    model: "authentication.User"
+    pk: 1
+    fields:
+        phone: "998911234567"
+        username: "998911234567"
+        password: ""
+-
+    model: "authentication.User"
+    pk: 2
+    fields:
+        phone: "998911111111"
+        username: "998911111111"
+        password: ""
+-
+    model: "authentication.User"
+    pk: 3
+    fields:
+        phone: "998912222222"
+        username: "998912222222"
+        password: ""
+-
+    model: "authentication.User"
+    pk: 4
+    fields:
+        phone: "998913333333"
+        username: "998913333333"
+        password: ""
+        is_active: False
+-
+    model: "authentication.User"
+    pk: 5
+    fields:
+        phone: "998901234578"
+        username: "998901234578"
+        password: ""
+-
+    model: "authentication.User"
+    pk: 6
+    fields:
+        phone: "998917777777"
+        username: "998917777777"
+        password: ""
+
+# TOKENS
+-
+    model: "authentication.Token"
+    pk: 1
+    fields:
+        user_id: 1
+        key: "af602e8f234ecc9ba03eb8eef2e6eb9c"
+        created_at: "2018-01-01 00:00:00+00:00"
+        updated_at: "2018-01-01 00:00:00+00:00"
+
+-
+    model: "authentication.Token"
+    pk: 2
+    fields:
+        user_id: 2
+        key: "b4f89a9ae6c9dc283cac57ed870910f3"
+        created_at: "2018-01-01 00:00:00+00:00"
+        updated_at: "2018-01-01 00:00:00+00:00"
+
+-
+    model: "authentication.Token"
+    pk: 3
+    fields:
+        user_id: 3
+        key: "120fbeebd5f8d4c460a232b904b9bec7"
+        created_at: "2018-01-01 00:00:00+00:00"
+        updated_at: "2018-01-01 00:00:00+00:00"
+
+-
+    model: "authentication.Token"
+    pk: 4
+    fields:
+        user_id: 4
+        key: "5e84409f824bae3e5aa03a3efe4313c9"
+        created_at: "2018-01-01 00:00:00+00:00"
+        updated_at: "2018-01-01 00:00:00+00:00"
+
+-
+    model: "authentication.Token"
+    pk: 5
+    fields:
+        user_id: 5
+        key: "5e841234567890q1eu2u3a3efe4313c9"
+        created_at: "2018-01-01 00:00:00+00:00"
+        updated_at: "2018-01-01 00:00:00+00:00"
+
+-
+    model: "authentication.Token"
+    pk: 6
+    fields:
+        user_id: 6
+        key: "5e8q2we2r2ty2ujk98765432wef2fe4313c9"
+        created_at: "2018-01-01 00:00:00+00:00"
+        updated_at: "2018-01-01 00:00:00+00:00"

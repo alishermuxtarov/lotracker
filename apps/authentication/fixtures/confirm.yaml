@@ -1,0 +1,32 @@
+-
+    model: "authentication.ConfirmationCode"
+    pk: 1
+    fields:
+        user: 1
+        code: '1894'
+        is_used: False
+        expires_at: '3000-01-01 00:00:00+00:00'
+-
+    model: "authentication.ConfirmationCode"
+    pk: 2
+    fields:
+        user: 2
+        code: '8781'
+        is_used: False
+        expires_at: '3000-01-01 00:00:00+00:00'
+-
+    model: "authentication.ConfirmationCode"
+    pk: 3
+    fields:
+        user: 3
+        code: '1254'
+        is_used: False
+        expires_at: '3000-01-01 00:00:00+00:00'
+-
+    model: "authentication.ConfirmationCode"
+    pk: 4
+    fields:
+        user: 4
+        code: '9584'
+        is_used: True
+        expires_at: '2018-01-01 00:00:00+00:00'
